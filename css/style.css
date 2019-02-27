@@ -1,115 +1,70 @@
-
-    /*.body
+  body
     {
-    	background-image: url("../img/Sea.jpg");
     	background-size: 1920px;
     	background-attachment: fixed;
 
     }
-	p
-    {
-		font-family: tahoma;
-		color: blue;
-	}
-		h2
-		{
-			font-size: 30px
-			text-shadow:3px 2px green;
-			letter-spacing: 2px;
+	ul
+{ 
+    list-style: none;
+    display:block;
+    position: absolute;
+    width: 1900px;
+    opacity: 0.6;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.nag{
+    background-color: black;
+}
+.hello
+{
+    top: 20%;
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    float: right;
+    
+    
+}
+li a {
+    text-decoration: none;
+    color: white;
+}  
+main{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/anna-stampfli-1392889-unsplash.jpg);
+    width: 1900px;
+    height: 700px;
+}
+h1{
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+p{
+    position: relative;
+    text-align: center;
+    top: 32%;
+}
+#me{
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    top: 40%;
+    border: 1px solid;
+    padding: 15px;
+}
+.ehe
+{ top: 20%;
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    text-align: center;
+    float: center;
+    left: 33%;
+}
 
-		}	
-	.Helloclass
-	{
-		color: maroon;
-		font-family: impact;
-		font-size: 30px
-
-	}	
-	.border
-	{   padding: 4px;
-		border: solid orange 5px;
-		background: Green;
-		margin-left: 10px;
-		margin-right: 10px;
-		outline: groove black 2px;
-	}
-	.table
-	{
-		color: white;
-		border:groove green 5px;
-		text-decoration: none;
-
-		
-	}
-	.td
-	{
-		color: White;
-		/*background-color: Green;*/
-	}
-	table a{
-		border-left: solid 2px red; 
-		text-decoration: none;
-	}
-	/*p.demo
-	{
-		text-align: center;
-		background-color: blue;
-	}
-    body> div > p
-    {
-    	color: black;
-    	font-family: tohama;
-    }
-    p.demo + p
-    {
-    	background-color: green;
-    }
-    p[class]
-    {
-    	text-align: right;
-    }
-    p[class^="d"]
-    {
-    	text-align: center;
-    	background-color: green;*/
-    }
-    p[class$="d"]
-    {
-    	background-color: blue;
-    }
-    div p:nth-child(even)
-    {
-    	background-color: yellow;
-    	max-width: 500px;
-    }
-    p:hover
-    {
-    	background-color: purple;
-    }
-    .ad
-    {
-    	text-transform: capitalize;
-
-    }
-    .body
-    {
-        font-family: tohama;
-
-    }
-    .1
-    {
-    	background-color: green;
-    	position: relative;
-    	top: 30px;
-    	right: 20;
-    }
-    .2
-    {
-        background-color: black; 
-    }
-    .3
-    {
-    	background-color: blue;
-    }
-	</style>
-</head>
